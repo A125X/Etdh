@@ -1,7 +1,116 @@
+nav {
+    overflow: hidden;
+    min-height: 90px
+}
+
 .container {
+    position: relative;
+    max-width: 1500px;
+    height: auto;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.logo,
+.center-nav,
+.right-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
     position: absolute;
+    left: 5px;
+    top: 30px;
+    width: 80px;
+    height: 23px;
+}
+
+.center-nav {
+    position: absolute;
+    width: 557px;
+    height: 24px;
+    left: 527px;
+    top: 31px;
+    margin-left: 240px;
+    margin-top: 32px;
+}
+
+    .center-nav a {
+        text-decoration: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: black;
+    }
+
+.right-nav {
+    position: absolute;
+    width: 277px;
+    height: 51px;
+    left: 1367px;
+    top: 18px;
+}
+
+    .right-nav a {
+        position: absolute;
+        left: 71.2%;
+        right: 25.73%;
+        top: 0.61%;
+        bottom: 98.92%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+.button {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.textH {
+    position: absolute;
+    width: 440px;
+    height: 148px;
+    left: 275px;
+    top: 261px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+
+.text {
+    position: absolute;
+    width: 420px;
+    height: 96px;
+    left: 275px;
+    top: 439px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+}
+
+.block {
+    height: 900px;
     width: 1920px;
-    height: 85px;
-    left: 0px;
-    top: 1px;
+    background: url(BG.jpg);
+    background-size: cover;
 }
